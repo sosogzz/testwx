@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WxCallBack {
     @RequestMapping("/hello")
     private String hello() {
-        return "hello wx!";
+        return "hello wx!!";
     }
 
 }
